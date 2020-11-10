@@ -29,14 +29,13 @@
             <strong>
                 Software Engineer
             </strong>
-
             at
-
             <a href="https://beta.graph.sap/">
                 SAP Graph
             </a>,
 
-            <span id="age"></span> y
+            age
+            <code id="age"></code>
 
             <br>
 
@@ -76,9 +75,7 @@
             <a rel="noopener" href="https://www.java.com/en/">
                 Java
             </a>
-
             and
-
             <a rel="noopener" href="https://docs.microsoft.com/en-us/dotnet/csharp/">
                 C#
             </a>
@@ -124,7 +121,7 @@
                     age--;
                 }
 
-                document.getElementById('age').innerText = age;
+                document.getElementById('age').innerText = (age >>> 0).toString(2);
             })();
         </script>
     </body>
