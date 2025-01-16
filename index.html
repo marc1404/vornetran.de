@@ -15,46 +15,61 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
 
         <style>
-            .buttons {
-                justify-content: center;
+            .has-white-space-nowrap {
+                white-space: nowrap;
             }
         </style>
     </head>
-    <body class="p-6">
-        <h1 class="title has-text-centered mb-5">
-            Marc Vornetran
-        </h1>
+    <body class="is-flex is-justify-content-center p-5">
+        <div class="is-inline-block">
+            <h1 class="title mb-5">
+                Marc Vornetran
+            </h1>
 
-        <p class="has-text-centered mb-5">
-            <strong>
-                Software Engineer
-            </strong>
-            at
-            <a href="https://beta.graph.sap/">SAP Graph</a>,
+            <div class="mb-5">
+                <span class="has-white-space-nowrap">
+                    <strong>
+                    Software Engineer
+                    </strong>
+                    at
+                    <strong>
+                        <a href="https://sap.com">SAP</a>
+                    </strong>
+                </span>
 
-            age
-            <code id="age"></code>
+                <span class="has-white-space-nowrap">
+                    working on
+                    <strong>
+                        <a href="https://gardener.cloud">Gardener 🌱</a>
+                    </strong>
+                </span>
+            </div>
 
-            <br>
+            <div>
+                📍
+                <a rel="noopener" href="https://maps.app.goo.gl/ohxAjaZ9yPqkNdCf7">
+                    Karlsruhe, Germany
+                </a>
+            </div>
 
-            Located in
-            <a rel="noopener" href="https://goo.gl/maps/DE6AKEitMJsvFeth9">
-                Wiesloch, Germany
-            </a>
-        </p>
+            <div class="mb-5">
+                ⏳
+                <code id="age"></code>
+            </div>
 
-        <div class="buttons">
-            <a rel="noopener" class="button is-light is-danger" href="mailto:marc@vornetran.de">
-                Email
-            </a>
+            <div>
+                <a rel="noopener" class="button is-light is-danger" href="mailto:marc@vornetran.de">
+                    Email
+                </a>
 
-            <a rel="noopener" class="button is-light is-danger" href="https://github.com/marc1404">
-                GitHub
-            </a>
+                <a rel="noopener" class="button is-light is-danger" href="https://github.com/marc1404">
+                    GitHub
+                </a>
 
-            <a rel="noopener" class="button is-light is-danger" href="https://stackoverflow.com/users/2460088/marc">
-                Stack Overflow
-            </a>
+                <a rel="noopener" class="button is-light is-danger" href="https://stackoverflow.com/users/2460088/marc">
+                    Stack Overflow
+                </a>
+            </div>
         </div>
 
         <script>
