@@ -1,93 +1,154 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marc Vornetran">
 
-        <title>Marc Vornetran</title>
+    <title>Marc Vornetran</title>
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/monospace/src/reset.css">
+    <link rel="stylesheet" href="/monospace/src/index.css">
 
-        <style>
-            .has-white-space-nowrap {
-                white-space: nowrap;
-            }
-        </style>
-    </head>
-    <body class="is-flex is-justify-content-center p-5">
-        <div class="is-inline-block">
-            <h1 class="title mb-5">
-                Marc Vornetran
-            </h1>
+    <style>
+        nav table h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
 
-            <div class="mb-5">
-                <span class="has-white-space-nowrap">
-                    <strong>
-                    Software Engineer
-                    </strong>
-                    at
-                    <strong>
-                        <a href="https://sap.com">SAP</a>
-                    </strong>
-                </span>
+<nav role="navigation">
+    <table>
+        <thead>
+        <tr>
+            <th colspan="5">
+                <h1>Marc Vornetran</h1>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>
+                <strong>Home</strong>
+            </th>
+            <th>
+                <a href="/macos">macOS</a>
+            </th>
+            <th>
+                <a href="/ios">iOS</a>
+            </th>
+            <th>
+                <a href="/charging">Charging</a>
+            </th>
+            <th>
+                <a href="/finance">Finance</a>
+            </th>
+        </tr>
+        </tbody>
+    </table>
+</nav>
 
-                <span class="has-white-space-nowrap">
-                    working on
-                    <strong>
-                        <a href="https://gardener.cloud">Gardener 🌱</a>
-                    </strong>
-                </span>
-            </div>
+<section>
+    <h2 id="about-me">About Me</h2>
 
-            <div>
-                📍
-                <a rel="noopener" href="https://maps.app.goo.gl/ohxAjaZ9yPqkNdCf7">
-                    Karlsruhe, Germany
-                </a>
-            </div>
+    <p>
+        <strong>Software Engineer</strong>
+        at
+        <a href="https://sap.com">SAP</a>
+        working on
+        <a href="https://gardener.cloud">Gardener</a>.
 
-            <div class="mb-5">
-                ⏳
-                <code id="age"></code>
-            </div>
+        <br>
 
-            <div>
-                <a rel="noopener" class="button is-light is-danger" href="mailto:marc@vornetran.de">
-                    Email
-                </a>
+        Living in
+        <a href="https://maps.app.goo.gl/ohxAjaZ9yPqkNdCf7">Karlsruhe, Germany</a>.
+        🇩🇪
 
-                <a rel="noopener" class="button is-light is-danger" href="https://github.com/marc1404">
-                    GitHub
-                </a>
+        <br>
 
-                <a rel="noopener" class="button is-light is-danger" href="https://stackoverflow.com/users/2460088/marc">
-                    Stack Overflow
-                </a>
-            </div>
-        </div>
+        Age: <code id="age"></code>
+    </p>
+</section>
 
-        <script>
-            (function () {
-                'use strict';
+<section>
+    <h2 id="contact">Contact</h2>
 
-                var birthday = new Date(1994, 3, 14);
-                var today = new Date();
-                var age = today.getFullYear() - birthday.getFullYear();
-                var monthDifference = today.getMonth() - birthday.getMonth();
-                var dayDifference = today.getDate() - birthday.getDate();
+    <p>
+        Send a message to <a href="mailto:marc@vornetran.de">marc@vornetran.de</a>.
+        <br>
+        You can also find me on <a href="https://github.com/marc1404">GitHub</a> and <a href="https://stackoverflow.com/users/2460088/marc">Stack Overflow</a>.
+    </p>
+</section>
 
-                if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
-                    age--;
-                }
+<section>
+    <h2 id="recommendations">Personal Recommendations</h2>
 
-                document.getElementById('age').innerText = (age >>> 0).toString(2);
-            })();
-        </script>
-    </body>
+    <p>
+        I find these tools really useful:
+    </p>
+
+    <ul>
+        <li>
+            <a href="https://www.bemyeyes.com">Be My Eyes</a>
+        </li>
+        <li>
+            <a href="https://www.schlaganfall-hilfe.de/de/verstehen-vermeiden/schlaganfall-erkennen/fast-test">FAST-Test</a>
+        </li>
+    </ul>
+
+    <p>
+        In Germany, you have the option to take part in the following:
+    </p>
+
+    <ul>
+        <li>
+            <a href="https://www.blutspende.de" title="Blood donation">Blutspende</a>
+        </li>
+        <li>
+            <a href="https://www.dkms.de/aktiv-werden/spender-werden" title="Stem cell donation">Stammzellenspende</a>
+        </li>
+        <li>
+            <a href="https://www.organspende-info.de" title="Organ donation">Organspende</a>
+        </li>
+    </ul>
+</section>
+
+<hr>
+
+<footer>
+    This page is built using the beautiful <a href="https://owickstrom.github.io/the-monospace-web"><strong>Monospace Web</strong></a> by <a href="https://wickstrom.tech/"><strong>Oskar Wickström</strong></a>. ❤️
+    <br>
+    Find the source code for this page on <a href="https://github.com/marc1404/vornetran.de/blob/master/index.html">github.com/marc1404/vornetran.de</a>.
+    <br>
+    <a href="https://ec.europa.eu/stories/slava-ukraini/index_en.html"><strong>Слава Україні.</strong></a> 🇪🇺 🇺🇦
+</footer>
+
+<script>
+    (function () {
+        'use strict';
+
+        var birthday = new Date(1994, 3, 14);
+        var today = new Date();
+        var age = today.getFullYear() - birthday.getFullYear();
+        var monthDifference = today.getMonth() - birthday.getMonth();
+        var dayDifference = today.getDate() - birthday.getDate();
+
+        if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+            age--;
+        }
+
+        document.getElementById('age').innerText = (age >>> 0).toString(2);
+    })();
+</script>
+
+<script src="/monospace/src/index.js"></script>
+
+</body>
 </html>
