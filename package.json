@@ -1,0 +1,13 @@
+{
+  "name": "vornetran.de",
+  "type": "module",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "serve": "serve",
+    "build": "node src/handlebars.js"
+  },
+  "devDependencies": {
+    "handlebars": "4.7.8",
+    "serve": "14.2.4"
+  }
+}

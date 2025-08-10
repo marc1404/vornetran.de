@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> header title="Marc Vornetran – Charging"}}
+</head>
+<body>
+
+{{> navigation charging=true }}
+
+<main>
+  <h2>Charging</h2>
+
+  <section>
+    <h3>Apps</h3>
+
+    <ul>
+      <li>
+        <a href="https://www.chargeprice.app">Chargeprice</a>
+        &mdash; Find the best charging tariffs.
+      </li>
+      <li>
+        <a href="https://ladefuchs.app">Ladefuchs</a>
+        &mdash; Find the cheapest charging tariff without subscriptions.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Tariffs</h3>
+
+    <p>
+      Charging tariffs for electric vehicles (EVs) in Germany.
+      <br>
+      <abbr title="Alternating Current">AC</abbr> and <abbr title="Direct Current">DC</abbr> prices are: <code>&euro; / kWh</code>.
+      <br>
+      For most providers, DC slow is &le; 50 kW and DC fast is &gt; 50 kW.
+      <br>
+      Tesla Supercharger prices can vary.
+    </p>
+
+    <div class="charging-table-container">
+      <table class="charging-table">
+        <thead>
+        <tr>
+          <th>Provider</th>
+          <th>AC</th>
+          <th>DC slow</th>
+          <th>DC fast</th>
+          <th>Monthly Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>
+            <a href="https://www.aldi-sued.de/de/nachhaltigkeit/klimaschutz-umwelt/elektromobilitaet.html">Aldi Süd</a>
+          </td>
+          <td>0.29 &euro;</td>
+          <td>0.44 &euro;</td>
+          <td>0.47 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.aral.de/de/global/retail/pulse.html">Aral Pulse</a>
+          </td>
+          <td>0.54 &euro;</td>
+          <td>0.59 &euro;</td>
+          <td>0.69 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.eon.de/de/pk/e-mobility/unterwegs.html">E.ON Drive Light</a>
+          </td>
+          <td>0.54 &euro;</td>
+          <td>0.61 &euro;</td>
+          <td>0.61 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.eon.de/de/pk/e-mobility/unterwegs.html">E.ON Drive More</a>
+          </td>
+          <td>0.49 &euro;</td>
+          <td>0.55 &euro;</td>
+          <td>0.55 &euro;</td>
+          <td>6.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.enbw.com/elektromobilitaet/produkte/ladetarife">EnBW S</a>
+          </td>
+          <td>0.59 &euro;</td>
+          <td>0.59 &euro;</td>
+          <td>0.59 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.enbw.com/elektromobilitaet/produkte/ladetarife">EnBW M</a>
+          </td>
+          <td>0.49 &euro;</td>
+          <td>0.49 &euro;</td>
+          <td>0.49 &euro;</td>
+          <td>5.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.enbw.com/elektromobilitaet/produkte/ladetarife">EnBW L</a>
+          </td>
+          <td>0.39 &euro;</td>
+          <td>0.39 &euro;</td>
+          <td>0.39 &euro;</td>
+          <td>17.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ewe-go.de">EWE Go</a>
+          </td>
+          <td>0.52 &euro;</td>
+          <td>0.52 &euro;</td>
+          <td>0.52 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ewe-go.de">EWE Go Partner</a>
+          </td>
+          <td>0.62 &euro;</td>
+          <td>0.62 &euro;</td>
+          <td>0.62 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ikea.com/de/de/customer-service/services/ladestationen-bei-ikea-pubd8675010">IKEA Family</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.46 &euro;</td>
+          <td>0.55 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ionity.eu/de/abonnements">IONITY Go</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.70 &euro;</td>
+          <td>0.70 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ionity.eu/de/abonnements">IONITY Motion</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.49 &euro;</td>
+          <td>0.49 &euro;</td>
+          <td>5.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.ionity.eu/de/abonnements">IONITY Power</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.39 &euro;</td>
+          <td>0.39 &euro;</td>
+          <td>11.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.jet.de/jetstrom">JET</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.49 &euro;</td>
+          <td>0.49 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.lidl.de/c/e-ladesaeulen/s10007751">Lidl</a>
+          </td>
+          <td>0.29 &euro;</td>
+          <td>0.44 &euro;</td>
+          <td>0.44 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.shell.de/laden/ladetarife-fuer-ihr-elektroauto.html">Shell Recharge Basic</a>
+          </td>
+          <td>
+            <abbr title="variable pricing">
+              <em>var.</em>
+            </abbr>
+          </td>
+          <td>0.56 &euro;</td>
+          <td>0.67 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.shell.de/laden/ladetarife-fuer-ihr-elektroauto.html">Shell Recharge e-Deal</a>
+          </td>
+          <td>
+            <abbr title="variable pricing">
+              <em>var.</em>
+            </abbr>
+          </td>
+          <td>0.42 &euro;</td>
+          <td>0.50 &euro;</td>
+          <td>4.99 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.tesla.com/de_de/supercharger">Tesla</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.60 &euro;</td>
+          <td>0.60 &euro;</td>
+          <td>0.00 &euro;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.tesla.com/de_de/supercharger">Tesla Membership</a>
+          </td>
+          <td><em>n.a.</em></td>
+          <td>0.43 &euro;</td>
+          <td>0.43 &euro;</td>
+          <td>&dollar;12.99</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <em>Last update: <abbr title="10ᵗʰ of August 2025">2025-08-10</abbr></em>
+  </section>
+</main>
+
+{{> footer}}
+
+</body>
+</html>

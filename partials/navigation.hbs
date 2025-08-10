@@ -1,0 +1,50 @@
+<nav role="navigation">
+  <table>
+    <thead>
+    <tr>
+      <th colspan="5">
+        <h1>Marc Vornetran</h1>
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th>
+        {{#if home}}
+          <strong>Home</strong>
+        {{else}}
+          <a href="/">Home</a>
+        {{/if}}
+      </th>
+      <th>
+        {{#if macos}}
+          <strong>macOS</strong>
+        {{else}}
+          <a href="/macos">macOS</a>
+        {{/if}}
+      </th>
+      <th>
+        {{#if ios}}
+          <strong>iOS</strong>
+        {{else}}
+          <a href="/ios">iOS</a>
+        {{/if}}
+      </th>
+      <th>
+        {{#if charging}}
+          <strong>Charging</strong>
+        {{else}}
+          <a href="/charging">Charging</a>
+        {{/if}}
+      </th>
+      <th>
+        {{#if finance}}
+          <strong>Finance</strong>
+        {{else}}
+          <a href="/finance">Finance</a>
+        {{/if}}
+      </th>
+    </tr>
+    </tbody>
+  </table>
+</nav>
