@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"handlebars@npm:^4.7.8":
+"handlebars@npm:4.7.8":
   version: 4.7.8
   resolution: "handlebars@npm:4.7.8"
   dependencies:
@@ -789,7 +789,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vornetran.de@workspace:."
   dependencies:
-    handlebars: "npm:^4.7.8"
+    handlebars: "npm:4.7.8"
     serve: "npm:14.2.4"
   languageName: unknown
   linkType: soft
