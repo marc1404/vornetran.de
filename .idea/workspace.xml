@@ -4,36 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="style: Remove empty lines">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partials/footer.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partials/header.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partials/navigation.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/charging.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/finance.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ios.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/macos.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="feat: Use Handlebars">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vornetran.de.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vornetran.de.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.6.darwin-arm64" />
   <component name="Git.Settings">
@@ -178,7 +161,8 @@
     <MESSAGE value="chore: Remove trailing slashes from URLs" />
     <MESSAGE value="docs: Improve charging page" />
     <MESSAGE value="style: Remove empty lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: Remove empty lines" />
+    <MESSAGE value="feat: Use Handlebars" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Use Handlebars" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
