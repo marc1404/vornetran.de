@@ -4,14 +4,51 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="chore: Update yarn.lock">
+    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="fix: Render correct source code links">
+      <change afterPath="$PROJECT_DIR$/public/monospace/.envrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/demo/castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/demo/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/flake.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/flake.nix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/monospace/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles/charging.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicons/favicon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/.envrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/demo/castle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/demo/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/demo/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/flake.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/flake.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monospace/src/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/charging.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/charging.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/finance.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/finance.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ios.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ios.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/macos.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/macos.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +102,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "SHELLCHECK.PATH": "/Users/I540076/Library/Application Support/JetBrains/GoLand2025.2/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
@@ -76,17 +114,34 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "yarn",
     "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
     "npm.serve.executor": "Run",
+    "npm.watch.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -102,10 +157,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +237,8 @@
     <MESSAGE value="feat: Use Handlebars" />
     <MESSAGE value="chore: Add JetBrains .gitignore" />
     <MESSAGE value="chore: Update yarn.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Update yarn.lock" />
+    <MESSAGE value="fix: Render correct source code links" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Render correct source code links" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
