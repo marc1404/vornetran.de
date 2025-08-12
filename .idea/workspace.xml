@@ -4,51 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="fix: Render correct source code links">
-      <change afterPath="$PROJECT_DIR$/public/monospace/.envrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/demo/castle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/demo/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/flake.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/flake.nix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/monospace/src/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/charging.css" afterDir="false" />
+    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="fix: Add back styles for charging page">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/.envrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/demo/castle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/demo/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/demo/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/flake.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/flake.nix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monospace/src/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/charging.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/charging.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/finance.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/finance.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/.envrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/demo/castle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/demo/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/demo/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/flake.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/flake.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/monospace/src/reset.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,12 +186,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Rework and extend website using the monospace web" />
-    <MESSAGE value="chore: Rename master to main" />
-    <MESSAGE value="style: Set theme color to black" />
-    <MESSAGE value="refactor: Improve footer" />
-    <MESSAGE value="style: Never wrap links" />
-    <MESSAGE value="style: Never wrap in th and td on charging page" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="fix: Fix links to source code of pages" />
     <MESSAGE value="style: Improve about me section" />
     <MESSAGE value="style: Remove superfluous empty line" />
@@ -238,7 +207,13 @@
     <MESSAGE value="chore: Add JetBrains .gitignore" />
     <MESSAGE value="chore: Update yarn.lock" />
     <MESSAGE value="fix: Render correct source code links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Render correct source code links" />
+    <MESSAGE value="temp: Remove monospace" />
+    <MESSAGE value="refactor: Move assets to public folder" />
+    <MESSAGE value="feat: Implement dev and serve commands" />
+    <MESSAGE value="chore: Update .idea project file" />
+    <MESSAGE value="chore: Add invisible debug toggle for monospace script" />
+    <MESSAGE value="fix: Add back styles for charging page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Add back styles for charging page" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
