@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="fix: Add back styles for charging page">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/.envrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/demo/castle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/demo/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/demo/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/flake.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/flake.nix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/monospace/src/reset.css" beforeDir="false" />
-    </list>
+    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="chore: Add .gitignore for monospace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +170,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix: Fix links to source code of pages" />
     <MESSAGE value="style: Improve about me section" />
     <MESSAGE value="style: Remove superfluous empty line" />
     <MESSAGE value="fix: Improve horizontal scroll for charging table" />
@@ -213,7 +194,8 @@
     <MESSAGE value="chore: Update .idea project file" />
     <MESSAGE value="chore: Add invisible debug toggle for monospace script" />
     <MESSAGE value="fix: Add back styles for charging page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Add back styles for charging page" />
+    <MESSAGE value="chore: Add .gitignore for monospace" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Add .gitignore for monospace" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

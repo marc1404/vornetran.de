@@ -1,7 +1,5 @@
 ### Start: Custom ###
 public/*.html
-public/monospace/*
-!public/monospace/src
 ### End: Custom ###
 
 ### Start: https://github.com/github/gitignore/blob/main/Node.gitignore ###
