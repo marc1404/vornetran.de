@@ -1,0 +1,13 @@
+.charging-table-container {
+  overflow-x: scroll;
+}
+
+.charging-table td {
+  text-align: right;
+}
+.charging-table td:first-child {
+  text-align: left;
+}
+.charging-table td, .charging-table th {
+  white-space: nowrap;
+}

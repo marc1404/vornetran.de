@@ -9,5 +9,5 @@ Handlebars.registerPartial('footer', await fs.readFile('partials/footer.hbs', 'u
 
 await Promise.all(pages.map(async page => {
   const template = Handlebars.compile(await fs.readFile(`templates/${page}.hbs`, 'utf8'));
-  await fs.writeFile(`${page}.html`, template({}), 'utf8');
+  await fs.writeFile(`public/${page}.html`, template({}), 'utf8');
 }));
