@@ -3,11 +3,13 @@
   "type": "module",
   "packageManager": "yarn@4.9.2",
   "scripts": {
-    "serve": "serve",
-    "build": "node src/handlebars.js"
+    "build": "node src/handlebars.js",
+    "dev": "sane 'yarn build' --glob='{partials,templates}/**/*.hbs'",
+    "serve": "reload --browser --dir public"
   },
   "devDependencies": {
     "handlebars": "4.7.8",
-    "serve": "14.2.4"
+    "reload": "3.4.2",
+    "sane": "5.0.1"
   }
 }
