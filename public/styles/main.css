@@ -5,3 +5,10 @@ a {
 nav table h1 {
   margin: 0;
 }
+
+div.table-container {
+  overflow-x: scroll;
+}
+div.table-container > table td, div.table-container > table th {
+  white-space: nowrap;
+}

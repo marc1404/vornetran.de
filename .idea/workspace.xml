@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="chore: Add .gitignore for monospace" />
+    <list default="true" id="3ea3a331-de2b-4760-9df0-94a94a221181" name="Changes" comment="chore: Revert ignoring monospace">
+      <change afterPath="$PROJECT_DIR$/public/styles/finance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/charging.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/charging.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/charging.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/charging.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/finance.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/finance.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +177,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="style: Improve about me section" />
     <MESSAGE value="style: Remove superfluous empty line" />
     <MESSAGE value="fix: Improve horizontal scroll for charging table" />
     <MESSAGE value="style: Update footer" />
@@ -195,7 +201,8 @@
     <MESSAGE value="chore: Add invisible debug toggle for monospace script" />
     <MESSAGE value="fix: Add back styles for charging page" />
     <MESSAGE value="chore: Add .gitignore for monospace" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Add .gitignore for monospace" />
+    <MESSAGE value="chore: Revert ignoring monospace" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Revert ignoring monospace" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
