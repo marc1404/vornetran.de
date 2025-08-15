@@ -1,12 +1,6 @@
-details[open] > ul > li::marker {
-  display: none;
-  content: '';
-}
-
 div.table-container > table td:nth-last-child(2), div.table-container > table td:last-child {
   text-align: right;
 }
 div.table-container > table td[colspan] {
   text-align: center;
-  font-weight: bold;
 }
