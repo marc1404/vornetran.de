@@ -2,6 +2,7 @@ div.table-container > table td:nth-last-child(2), div.table-container > table td
   text-align: right;
 }
 div.table-container > table td[colspan] {
-  font-size: 16px;
   text-align: center;
+  font-size: 16px !important; /* for Safari on iOS */
+  line-height: normal !important; /* for Safari on iOS */
 }
