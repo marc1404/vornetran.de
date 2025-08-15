@@ -1,3 +1,8 @@
+td[colspan] {
+  font-size: inherit;
+  line-height: normal;
+}
+
 div.table-container > table td:nth-last-child(2), div.table-container > table td:last-child {
   text-align: right;
 }
