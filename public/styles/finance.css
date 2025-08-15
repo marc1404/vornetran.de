@@ -3,6 +3,4 @@ div.table-container > table td:nth-last-child(2), div.table-container > table td
 }
 div.table-container > table td[colspan] {
   text-align: center;
-  font-size: 16px !important; /* for Safari on iOS */
-  line-height: normal !important; /* for Safari on iOS */
 }
