@@ -9,12 +9,5 @@ div.box-container > div.box {
   padding:
     calc(var(--line-height) / 2 - var(--border-thickness))
     calc(1ch - var(--border-thickness));
-  font-size: 16px;
-  font-weight: normal;
-  background: var(--background-color);
-  color: var(--text-color);
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
 }
