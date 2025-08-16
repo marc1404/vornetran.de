@@ -3,6 +3,7 @@ div.box-container {
 }
 div.box-container > div.box {
   display: inline-block;
+  min-width: 100%;
   white-space: nowrap;
   border: var(--border-thickness) solid var(--text-color);
   padding:
