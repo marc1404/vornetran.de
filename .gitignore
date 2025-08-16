@@ -1,5 +1,6 @@
 ### Start: Custom ###
 public/*.html
+.DS_Store
 ### End: Custom ###
 
 ### Start: https://github.com/github/gitignore/blob/main/Node.gitignore ###
