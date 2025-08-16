@@ -171,30 +171,38 @@
 
     <h5>Hide the last login message in terminals</h5>
 
-    <div class="box">
-      touch ~/.hushlogin
+    <div class="box-container">
+      <div class="box">
+        touch ~/.hushlogin
+      </div>
     </div>
 
     <h5>Override &amp; update inbuilt defaults</h5>
 
-    <div class="box">
-      brew install curl git nano python vim
+    <div class="box-container">
+      <div class="box">
+        brew install curl git nano python vim
+      </div>
     </div>
 
     <h5>Show hidden files &amp; filename extensions</h5>
 
-    <div class="box">
-      defaults write com.apple.finder AppleShowAllFiles TRUE
-      <br>
-      defaults write NSGlobalDomain AppleShowAllExtensions TRUE
-      <br>
-      killall Finder
+    <div class="box-container">
+      <div class="box">
+        defaults write com.apple.finder AppleShowAllFiles TRUE
+        <br>
+        defaults write NSGlobalDomain AppleShowAllExtensions TRUE
+        <br>
+        killall Finder
+      </div>
     </div>
 
     <h5>Prevent Apple Music from launching accidentally</h5>
 
-    <div class="box">
-      launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+    <div class="box-container">
+      <div class="box">
+        launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+      </div>
     </div>
 
     <h5>Squeeze menubar icons</h5>
@@ -203,20 +211,24 @@
       Adjust the values for spacing and selection padding as you prefer.
     </p>
 
-    <div class="box">
-      defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
-      <br>
-      defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 12
+    <div class="box-container">
+      <div class="box">
+        defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
+        <br>
+        defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 12
+      </div>
     </div>
 
     <p>
       The changes can be reverted.
     </p>
 
-    <div class="box">
-      defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
-      <br>
-      defaults -currentHost delete -globalDomain NSStatusItemSpacing
+    <div class="box-container">
+      <div class="box">
+        defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+        <br>
+        defaults -currentHost delete -globalDomain NSStatusItemSpacing
+      </div>
     </div>
 
     <p>

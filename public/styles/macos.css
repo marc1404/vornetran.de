@@ -1,4 +1,9 @@
-.box {
+div.box-container {
+  overflow-x: scroll;
+}
+div.box-container > div.box {
+  display: inline-block;
+  white-space: nowrap;
   border: var(--border-thickness) solid var(--text-color);
   padding:
     calc(var(--line-height) / 2 - var(--border-thickness))
