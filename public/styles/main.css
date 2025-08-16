@@ -8,3 +8,7 @@ div.table-container {
 div.table-container > table td, div.table-container > table th {
   white-space: nowrap;
 }
+
+.has-no-text-transform {
+  text-transform: none;
+}
