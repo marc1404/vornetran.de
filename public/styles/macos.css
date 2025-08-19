@@ -11,3 +11,7 @@ div.box-container > div.box {
     calc(1ch - var(--border-thickness));
   -webkit-text-size-adjust: 100%;
 }
+
+.has-word-break-all {
+  word-break: break-all;
+}
