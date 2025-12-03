@@ -48,10 +48,6 @@
         &mdash; Writing assistance.
       </li>
       <li>
-        <a href="https://icemenubar.app/">Ice</a>
-        &mdash; Hide menu bar icons.
-      </li>
-      <li>
         <a href="https://www.jetbrains.com/toolbox-app">JetBrains Toolbox</a>
         &mdash; <abbr title="Integrated Development Environment">IDE</abbr> management.
       </li>
@@ -142,6 +138,10 @@
 
     <ul>
       <li>
+        <a href="https://github.com/cloudflare/cfssl">cfssl</a>
+        &mdash; Cloudflare's swiss army knife for TLS certificates.
+      </li>
+      <li>
         <a href="https://github.com/wagoodman/dive">dive</a>
         &mdash; Explore the layers of a Docker image.
       </li>
@@ -162,12 +162,20 @@
         &mdash; Manage Kubernetes clusters.
       </li>
       <li>
+        <a href="https://kind.sigs.k8s.io/">kind</a>
+        &mdash; Quickly spin up a local Kubernetes cluster in Docker.
+      </li>
+      <li>
         <a href="https://kubecolor.github.io/">kubecolor</a>
         &mdash; Colorful output for <code>kubectl</code>.
       </li>
       <li>
         <a href="https://github.com/ahmetb/kubectx/">kubectx</a>
         &mdash; Quickly switch between Kubernetes clusters and namespaces.
+      </li>
+      <li>
+        <a href="https://github.com/stern/stern">stern</a>
+        &mdash; Tail the logs of multiple pods and containers in Kubernetes.
       </li>
       <li>
         <a href="https://mikefarah.gitbook.io/yq/">yq</a>
@@ -211,13 +219,27 @@
       </div>
     </div>
 
-    <h5>Prevent Apple Music from launching accidentally</h5>
+    <h5>Enable Touch ID for sudo</h5>
 
     <div class="box-container">
       <div class="box">
-        launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+        sudo vim /etc/pam.d/sudo
       </div>
     </div>
+
+    <p>
+      Add the following line:
+    </p>
+
+    <div class="box-container">
+      <div class="box">
+        auth sufficient pam_tid.so
+      </div>
+    </div>
+
+    <p>
+      Type <code>:x!</code> to force save and exit vim.
+    </p>
 
   </section>
 
