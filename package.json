@@ -1,15 +1,15 @@
 {
   "name": "vornetran.de",
   "type": "module",
-  "packageManager": "yarn@4.9.2",
+  "packageManager": "yarn@4.14.1",
   "scripts": {
     "build": "node src/handlebars.js",
     "dev": "sane 'yarn build' --glob='{partials,templates}/**/*.hbs'",
     "serve": "reload --browser --dir public"
   },
   "devDependencies": {
-    "handlebars": "4.7.8",
-    "reload": "3.4.2",
+    "handlebars": "4.7.9",
+    "reload": "3.4.3",
     "sane": "5.0.1"
   }
 }
